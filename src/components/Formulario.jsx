@@ -24,7 +24,7 @@ const Formulario = () => {
         import.meta.env.VITE_EMAIL_SERVICE,
         import.meta.env.VITE_EMAIL_TEMPLATE,
         event.target,
-        import.meta.env.VITE_EMAIL_USERID
+        "GoSOYH-N1L76Bmn1u"
       )
       .then(alert("mensaje enviado"))
       .catch((error) => console.log(error));
