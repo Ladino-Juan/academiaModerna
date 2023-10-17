@@ -1,0 +1,29 @@
+{
+    "a2": {
+        "titulo": "LICENCIA A2",
+        "descripcion": "permite conducir motocicletas, motociclos, mototriciclos con motor mayor a 125 cc",
+        "duracion": ["25 horas de teoría", "3 horas de taller", "15 horas prácticas", "Aproximadamente 1 mes para terminar el curso"],
+        "contenido": ["derechos de tránsito", "exámenes médicos", "clases teóricas", "clases prácticas"],
+        "horario": "Lunes - viernes de 8:00 AM - 12:00PM y 02:00PM - 06:00PM Sábados 8:00 AM - 12:00PM",
+        "precio": "$1'050.000",
+        "imagen": "assets/licenciaA2.webp"
+    },
+    "b1": {
+        "titulo": "LICENCIA B1",
+        "descripcion": "permite conducir automóviles, motocarros, cuatrimotos, camperos, camionetas y microbuses",
+        "duracion": ["25 horas de teoría", "5 horas de taller", "20 horas prácticas", "Aproximadamente 1 mes para terminar el curso"],
+        "contenido": ["derechos de tránsito", "exámenes médicos", "clases teóricas", "clases prácticas"],
+        "horario": "Lunes - viernes de 8:00 AM - 12:00PM y 02:00PM - 06:00PM Sábados 8:00 AM - 12:00PM",
+        "precio": "$1'400.000",
+        "imagen": "assets/licenciaB1.webp"
+    },
+    "c1": {
+        "titulo": "LICENCIA C1",
+        "descripcion": "permite conducir automóviles, camperos, camionetas y microbuses de servicio público",
+        "duracion": ["20 horas de teoría", "5 horas de taller", "30 horas prácticas", "Aproximadamente 1 mes y medio para terminar el curso"],
+        "contenido": ["derechos de tránsito", "exámenes médicos", "clases teóricas", "clases prácticas"],
+        "horario": "Lunes - viernes de 8:00 AM - 12:00PM y 02:00PM - 06:00PM Sábados 8:00 AM - 12:00PM",
+        "precio": "$1'600.000",
+        "imagen": "assets/licenciaC1.webp"
+    }
+}
