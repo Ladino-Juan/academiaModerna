@@ -18,13 +18,12 @@ const Formulario = () => {
 
   const sendEmail = (event) => {
     event.preventDefault();
-    console.log(import.meta.env.VITE_EMAIL_USERID)
     emailjs
       .sendForm(
         import.meta.env.VITE_EMAIL_SERVICE,
         import.meta.env.VITE_EMAIL_TEMPLATE,
         event.target,
-        "GoSOYH-N1L76Bmn1u"
+        import.meta.env.VITE_EMAIL_USERID
       )
       .then(alert("mensaje enviado"))
       .catch((error) => console.log(error));
