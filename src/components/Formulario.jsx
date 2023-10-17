@@ -25,7 +25,7 @@ const Formulario = () => {
         event.target,
         import.meta.env.VITE_EMAIL_USERID
       )
-      .then(alert("mensaje enviado"))
+      .then(console.log(import.meta.env.VITE_EMAIL_USERID))
       .catch((error) => console.log(error));
   };
 
