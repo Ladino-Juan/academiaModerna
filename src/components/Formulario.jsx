@@ -18,6 +18,7 @@ const Formulario = () => {
 
   const sendEmail = (event) => {
     event.preventDefault();
+    console.log(import.meta.env.VITE_EMAIL_USERID)
     emailjs
       .sendForm(
         import.meta.env.VITE_EMAIL_SERVICE,
@@ -25,7 +26,7 @@ const Formulario = () => {
         event.target,
         import.meta.env.VITE_EMAIL_USERID
       )
-      .then(console.log(import.meta.env.VITE_EMAIL_USERID))
+      .then(alert("mensaje enviado"))
       .catch((error) => console.log(error));
   };
 
