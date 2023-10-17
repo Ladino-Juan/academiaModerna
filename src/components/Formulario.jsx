@@ -35,8 +35,8 @@ const Formulario = () => {
       onSubmit={sendEmail}
       id="contacto"
     >
-      <h1 className="text-4xl font-semibold text-center mb-2 text-gray-500">
-        Obtén más información
+      <h1 className="text-4xl font-semibold text-center mb-5 text-gray-500 max-sm:text-2xl w-2/4 max-sm:w-3/4">
+        Pregunta por nuestras promociones! <span className="text-rojo">descuentos</span> en licencias combinadas
       </h1>
       <p className="text-xl font-medium text-center w-3/4 mb-10 text-gray-500">
         {" "}

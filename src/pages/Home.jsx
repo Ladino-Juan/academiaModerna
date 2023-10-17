@@ -27,7 +27,7 @@ const Home = () => {
         </div>
         <img
           src="assets/academia_bg.webp"
-          className="object-cover max-sm:object-none w-full h-screen -z-10 absolute opacity-40"
+          className="object-cover w-full h-screen -z-10 absolute opacity-40"
           alt="academia moderna de automovilismo cuba"
         />
       </div>
@@ -94,7 +94,7 @@ const Home = () => {
         </div>
       </div>
       <div
-        className="w-full h-screen font-poppins text-blanco flex justify-around items-center max-sm:flex-col-reverse"
+        className="w-full h-screen max-sm:h-[80vh] font-poppins text-blanco flex justify-around items-center max-sm:flex-col-reverse"
         id="nosotros"
       >
         <iframe
@@ -105,7 +105,7 @@ const Home = () => {
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
         <div className="w-1/3 text-right max-sm:w-[80vw] max-sm:text-center">
-          <h2 className="font-semibold text-6xl max-sm:text-4xl">
+          <h2 className="font-semibold text-6xl max-sm:text-2xl">
             NUESTROS CURSOS
           </h2>
           <br></br>
