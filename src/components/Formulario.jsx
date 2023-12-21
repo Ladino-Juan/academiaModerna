@@ -20,10 +20,10 @@ const Formulario = () => {
     event.preventDefault();
     emailjs
       .sendForm(
-        import.meta.env.VITE_EMAIL_SERVICE,
-        import.meta.env.VITE_EMAIL_TEMPLATE,
+        "service_sf08mwd",
+        "template_qp62qwy",
         event.target,
-        import.meta.env.VITE_EMAIL_USERID
+        "jMIiba1hr0SbtDCwa"
       )
       .then(alert("mensaje enviado"))
       .catch((error) => console.log(error));
