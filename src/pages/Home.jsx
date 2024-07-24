@@ -46,8 +46,10 @@ const Home = () => {
           </h2>
           <br></br>
           <p className="font-medium text-2xl max-sm:text-lg">
-            Ofrecemos una experiencia de aprendizaje completa que te prepara
-            para enfrentar cualquier desafío en la carretera.
+            Somos una academia con más de 20 años de experiencia enseñando a
+            conducir. Hemos ayudado a cientos de personas como tú a adquirir
+            habilidades de conducción con la máxima seguridad y rapidez. ¡Ven y
+            disfruta de las mejores clases con nosotros!
           </p>
         </div>
         <div className="grid grid-cols-2 max-sm:grid-cols-1 gap-4 h-3/4 w-2/4 text-blanco max-sm:w-[80vw] max-sm:h-3/4 relative z-10">

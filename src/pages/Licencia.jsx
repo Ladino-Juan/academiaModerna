@@ -56,12 +56,6 @@ const Licencia = (props) => {
         </div>
       </div>
       <div className="bg-blanco w-full h-[10vh] max-sm:h-[20vh] font-poppins flex justify-around items-center max-sm:flex-col">
-        <div
-          className="flex items-center justify-center w-56 text-xl max-sm:text-lg font-semibold bg-rojo text-blanco border-transparent rounded-xl"
-          aria-label="formulario academia moderna de automovilismo cuba"
-        >
-          <span className="py-2">PRECIO: {claseLicencia.precio}</span>
-        </div>
         <div className="w-2/4 text-gray-600 text-left max-sm:w-[80vw] max-sm:text-center">
           <h1 className="font-semibold text-2xl max-sm:text-xl mb-2 mt-5">
             REQUISITOS
